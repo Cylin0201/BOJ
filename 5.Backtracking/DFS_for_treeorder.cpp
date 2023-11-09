@@ -32,4 +32,10 @@ int main(){
     n3->right = n5;
 
     DFS(n1);
+    delete n1;
+    delete n2;
+    delete n3;
+    delete n4;
+    delete n5;
+
 }
